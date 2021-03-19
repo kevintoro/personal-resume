@@ -7,95 +7,184 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="shortcut icon"
-      href="./assets/icon/resume.svg"
+      href="./assets/icon/icon.svg"
       type="image/x-icon"
     />
     <title>Resume</title>
   </head>
   <body>
-    <img src="./assets/img/440452417_c4b1a959f5_o.jpg" alt="banner_img" />
-    <h1 id="main-title">Kevin Andres Toro Galvan</h1>
-    <h2>Fecha de nacimiento: 07/07/1999</h2>
-    <br />
-    <p>
-      Tengo 21 años, soy alguien que ama la música, interpreto piano, guitarra,
-      y bajo, participé en un grupo de la universidad de música pop y rock,
-      logrando con ellos ganar el primer lugar en la competencia regional. Vivo
-      en Chitagá, Norte de Santander, juego baloncesto, en un equipo de mi
-      municipio. Me apasiona la programación, aprender, y me llama mucho la
-      atención el desarrollo móvil.
-    </p>
-    <p>
-      Acerca de mi carrera universitaria, me encanta, aunque, por momentos no me
-      ha ido muy bien por problemas personales, ha sido complejo realmente todo
-      esto de pandemia, pues, los servicios de internet que hay en el municipio
-      son bastante básicos, y muchas veces tienen caídas, por momentos llego a
-      pensar que no ando aprendiendo mucho con materias como física, pero hay
-      que seguir esforzándose para lograr cumplir el sueño de ser ingeniero de
-      sistemas
-    </p>
-    <br />
-    <h3>Mis Hobbies:</h3>
-    <ul>
-      <li>Tocar piano</li>
-      <li>Jugar baloncesto</li>
-      <li>Desarrollar para móviles</li>
-      <li>Ver películas</li>
-    </ul>
-    <h3>Peliculas y series favoritas:</h3>
-    <ul>
-      <li>La casa de papel</li>
-      <li>Gambito de dama</li>
-      <li>Lupin</li>
-      <li>The Walking Dead</li>
-      <li>Silent Hill</li>
-      <li>Harry Potter</li>
-    </ul>
-    <h3>Cancion favorita:</h3>
-    <img src="./assets/img/dreamer-cover.jpg" alt="album_cover_art" />
-    <p>Martin Garrix - Dreamer</p>
-    <audio src="./assets/music/Martin Garrix - Dreamer.mp3" controls></audio>
-    <h3>Mis materias Favoritas:</h3>
-    <table style="width: 50%">
-      <tr>
-        <th>Materia</th>
-        <th>Nota</th>
-        <th>Porqué es de las favoritas</th>
-      </tr>
-      <tr>
-        <td>Programacion Orientada a Objetos</td>
-        <td>4.3</td>
-        <td>
-          Porque aprendí las bases para las demás materias de programación
-        </td>
-      </tr>
-      <tr>
-        <td>Análisis de algoritmos</td>
-        <td>3.2</td>
-        <td>Porque se aprende a optimizar de mejor manera los algoritmos</td>
-      </tr>
-      <tr>
-        <td>Arquitectura de computadores</td>
-        <td>3.7</td>
-        <td>Porque el docente explica excelente todo acerca del PC</td>
-      </tr>
-      <tr>
-        <td>Estructuras de datos</td>
-        <td>3.3</td>
-        <td>
-          me ayudó a tener en mi mente las ventajas de todas las formas de
-          organizar variables, así, puedo escoger la estructura adecuada según
-          mis necesidades para encontrar datos de forma rápida y no costosa para
-          el sistema.
-        </td>
-      </tr>
-      <tr>
-        <td>Bases de datos</td>
-        <td>3.5</td>
-        <td>Por aprender a guardar datos para uso en un futuro</td>
-      </tr>
-    </table>
-    <br />
-    <a href="./pages/contacto.html">Ir a contacto</a>
+    <header>
+      <h6><span>$</span>kevintoro</h6>
+      <ul class="navigation">
+        <li>
+          <a href="./pages/contacto.html">Contact Page</a>
+        </li>
+        <li>
+          <a href="https://github.com/kevintoro" target="blank">Github</a>
+        </li>
+      </ul>
+    </header>
+    <section class="banner" id="banner">
+      <div class="content">
+        <h4>Hello, my name is</h4>
+        <h2>Kevin Toro</h2>
+        <h4>And i'm a <span class="code">Junior Developer</span></h4>
+        <a class="btn" href="#">About Me</a>
+      </div>
+    </section>
+    <section class="about">
+      <br />
+      <div class="row">
+        <div class="col40">
+          <img src="./assets/img/profile.png" alt="profile_kevintoro" />
+        </div>
+        <div class="col60">
+          <h2 class="title">About me</h2>
+          <p>
+            Tengo 21 años, soy alguien que ama la música, interpreto piano,
+            guitarra, y bajo, participé en un grupo de la universidad de música
+            pop y rock, logrando con ellos ganar el primer lugar en la
+            competencia regional. Vivo en Chitagá, Norte de Santander, juego
+            baloncesto, en un equipo de mi municipio. Me apasiona la
+            programación, aprender, y me llama mucho la atención el desarrollo
+            móvil.
+          </p>
+          <br />
+          <p>
+            Acerca de mi carrera universitaria, me encanta, aunque, por momentos
+            no me ha ido muy bien por problemas personales, ha sido complejo
+            realmente todo esto de pandemia, pues, los servicios de internet que
+            hay en el municipio son bastante básicos, y muchas veces tienen
+            caídas, por momentos llego a pensar que no ando aprendiendo mucho
+            con materias como física, pero hay que seguir esforzándose para
+            lograr cumplir el sueño de ser ingeniero de sistemas
+          </p>
+          <br />
+          <h3>Mis Hobbies:</h3>
+          <ul class="list-group">
+            <li>Tocar piano</li>
+            <li>Jugar baloncesto</li>
+            <li>Desarrollar para móviles</li>
+            <li>Pasar tiempo en familia</li>
+            <li>Fines de semana campestres</li>
+            <li>Ver series y películas</li>
+            <li>Leer</li>
+          </ul>
+        </div>
+      </div>
+      <br />
+      <h3 class="hyper-title">Peliculas y series favoritas:</h3>
+      <div class="card-row">
+        <div class="card">
+          <img
+            src="https://pbs.twimg.com/profile_images/1234872376128610304/sCrPad2f_400x400.jpg"
+            alt="la_casa_de_papel"
+            class="card-img"
+          />
+          <h4 class="card-title">La casa de papel</h4>
+        </div>
+        <div class="card">
+          <img
+            src="https://aws.glamour.mx/prod/designs/v1/assets/1170x1170/243130.png"
+            alt="Gambito_de_dama"
+            class="card-img"
+          />
+          <h4 class="card-title">Gambito de dama</h4>
+        </div>
+        <div class="card">
+          <img
+            src="https://spoiler.bolavip.com/__export/1611253334919/sites/bolavip/img/2021/01/21/lupin-2361772318-1610178216111_crop1611251695663.jpg_1996183096.jpg"
+            alt="Lupin"
+            class="card-img"
+          />
+          <h4 class="card-title">Lupin</h4>
+        </div>
+        <div class="card">
+          <img
+            src="https://dib.com.ar/wp-content/uploads/2020/04/final-de-temporada.jpg"
+            alt="The_Walking_Dead"
+            class="card-img"
+          />
+          <h4 class="card-title">The Walking Dead</h4>
+        </div>
+        <div class="card">
+          <img
+            src="http://3.bp.blogspot.com/-76v7Z2p92zs/Vb5-54bLZmI/AAAAAAAAAUI/qr0SOEjdEZU/s1600/esta-noche-a-las-22-00-en-paramount-channel-silent-hill-original.jpg"
+            alt="Silent_hill"
+            class="card-img"
+          />
+          <h4 class="card-title">Silent Hill</h4>
+        </div>
+        <div class="card">
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/I/81BMVWELFOL._AC_SL1500_.jpg"
+            alt="Harry_potter"
+            class="card-img"
+          />
+          <h4 class="card-title">Harry Potter</h4>
+        </div>
+      </div>
+      <section id="song">
+        <h3 class="hyper-title">Cancion favorita:</h3>
+        <div class="row">
+          <div class="row-center">
+            <div class="audio-card">
+              <img src="./assets/img/dreamer-cover.jpg" alt="album_cover_art" />
+              <audio
+                src="./assets/music/Martin Garrix - Dreamer.mp3"
+                controls
+              ></audio>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="favorites">
+        <h3 class="hyper-title">Mis materias Favoritas:</h3>
+        <div class="row-center">
+          <table id="favorite-subjects">
+            <tr>
+              <th>Materia</th>
+              <th>Nota</th>
+              <th>Porqué es de las favoritas</th>
+            </tr>
+            <tr>
+              <td>Programacion Orientada a Objetos</td>
+              <td>4.3</td>
+              <td>
+                Porque aprendí las bases para las demás materias de programación
+              </td>
+            </tr>
+            <tr>
+              <td>Análisis de algoritmos</td>
+              <td>3.2</td>
+              <td>
+                Porque se aprende a optimizar de mejor manera los algoritmos
+              </td>
+            </tr>
+            <tr>
+              <td>Arquitectura de computadores</td>
+              <td>3.7</td>
+              <td>Porque el docente explica excelente todo acerca del PC</td>
+            </tr>
+            <tr>
+              <td>Estructuras de datos</td>
+              <td>3.3</td>
+              <td>
+                me ayudó a tener en mi mente las ventajas de todas las formas de
+                organizar variables, así, puedo escoger la estructura adecuada
+                según mis necesidades para encontrar datos de forma rápida y no
+                costosa para el sistema.
+              </td>
+            </tr>
+            <tr>
+              <td>Bases de datos</td>
+              <td>3.5</td>
+              <td>Por aprender a guardar datos para uso en un futuro</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+    </section>
   </body>
+  <script src="./js/app.js"></script>
 </html>
