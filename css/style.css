@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /*
   index styles
 */
@@ -151,7 +155,7 @@ body {
   min-height: 1000px;
 }
 
-section.about {
+section#about {
   padding-top: 50px;
 }
 
