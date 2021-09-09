@@ -15,6 +15,7 @@
   <body>
     <header>
       <h6><span>$</span>kevintoro</h6>
+      <div class="menu-toggle" onclick="toggle_menu()"></div>
       <ul class="navigation">
         <li>
           <a href="./pages/contacto.html">Contact Page</a>
@@ -36,40 +37,68 @@
       <br />
       <div class="row">
         <div class="col40">
-          <img src="./assets/img/profile.png" alt="profile_kevintoro" />
+          <div class="image-container">
+            <img
+              src="./assets/img/profile.png"
+              alt="profile_kevintoro"
+              id="about-img"
+            />
+          </div>
         </div>
         <div class="col60">
           <h2 class="title">About me</h2>
           <p>
-            Tengo 21 años, soy alguien que ama la música, interpreto piano,
-            guitarra, y bajo, participé en un grupo de la universidad de música
-            pop y rock, logrando con ellos ganar el primer lugar en la
-            competencia regional. Vivo en Chitagá, Norte de Santander, juego
-            baloncesto, en un equipo de mi municipio. Me apasiona la
-            programación, aprender, y me llama mucho la atención el desarrollo
-            móvil.
+            Me apasiona la programación, y aprender todos los días algo nuevo,
+            siempre busco salir adelante y no rendirme con todo lo que me
+            propongo, sean proyectos personales o laborales. Me gusta trabajar
+            en equipo, compartir con amigos, conocer lugares nuevos. Me encanta
+            la música, interpreto algunos instrumentos, me siento feliz con ello
+            :)
           </p>
           <br />
-          <p>
-            Acerca de mi carrera universitaria, me encanta, aunque, por momentos
-            no me ha ido muy bien por problemas personales, ha sido complejo
-            realmente todo esto de pandemia, pues, los servicios de internet que
-            hay en el municipio son bastante básicos, y muchas veces tienen
-            caídas, por momentos llego a pensar que no ando aprendiendo mucho
-            con materias como física, pero hay que seguir esforzándose para
-            lograr cumplir el sueño de ser ingeniero de sistemas
-          </p>
-          <br />
-          <h3>Mis Hobbies:</h3>
-          <ul class="list-group">
-            <li>Tocar piano</li>
-            <li>Jugar baloncesto</li>
-            <li>Desarrollar para móviles</li>
-            <li>Pasar tiempo en familia</li>
-            <li>Fines de semana campestres</li>
-            <li>Ver series y películas</li>
-            <li>Leer</li>
-          </ul>
+          <h2 class="title">Skills</h2>
+          <div class="skills-bar">
+            <div class="bar" id="html">
+              <div class="info">
+                <span>HTML</span>
+              </div>
+              <div class="progress-line">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar" id="js">
+              <div class="info">
+                <span>Javascript</span>
+              </div>
+              <div class="progress-line">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar" id="node">
+              <div class="info">
+                <span>NodeJS</span>
+              </div>
+              <div class="progress-line">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar" id="python">
+              <div class="info">
+                <span>Python</span>
+              </div>
+              <div class="progress-line">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar" id="java">
+              <div class="info">
+                <span>Java</span>
+              </div>
+              <div class="progress-line">
+                <span></span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <br />
